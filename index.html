@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>職員室 注文フォーム</title>
+</head>
+<body>
+  <h2>職員室用 注文フォーム</h2>
+
+  <form id="orderForm">
+    <label>ユーザー名:
+      <input type="text" name="userName" id="userName" readonly>
+    </label>
+
+    <label>職員室:
+      <select name="room" required>
+        <option value="">選んでください</option>
+        <option>職員室</option>
+        <option>生徒指導室</option>
+        <option>商業センター</option>
+        <option></option>
+        <option>商業センター</option>
+      </select>
+    </label>
+
+    <label>商品名:
+      <select name="item" required>
+        <option value="">選んでください</option>
+        <option value="お茶">お茶</option>
+        <option value="コーヒー">コーヒー</option>
+        <option value="チョコレート">チョコレート</option>
+      </select>
+    </label>
+
+    <label>数量:
+      <input type="number" name="quantity" value="1" min="1" required>
+    </label>
+
+    <button type="submit">注文する</button>
+  </form>
+</body>
+</html>
