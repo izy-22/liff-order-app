@@ -26,12 +26,14 @@ body {
     max-width: 500px;
     width: 100%;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-size: 16px;
   }
   
   label {
     margin-top: 20px;
     display: block;
     font-weight: bold;
+    font-size: 16px;
   }
   
   input[type="text"],
@@ -43,6 +45,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 16px;
   }
   
   button {
@@ -55,6 +58,7 @@ body {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    font-size: 16px;
   }
   
   button:hover {
