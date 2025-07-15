@@ -75,12 +75,13 @@
 
       fetch(scriptURL, {
         method: 'POST',
-        mode: "no-cors", // ← これが超重要！
-  　　　　headers: {
-    　"Content-Type": "application/json"
- 　　 },
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/json"
+        },
         body: JSON.stringify(data)
-      })
+        })
+        
       .then(response => {
         alert("注文が送信されました！");
         if (liff.isInClient()) {
